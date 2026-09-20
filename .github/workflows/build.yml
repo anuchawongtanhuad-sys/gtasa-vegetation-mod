@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Android NDK
-        uses: nttld/setup-ndk@v3
+        uses: nttld/setup-ndk@main
         with:
           ndk-version: r25b
 
